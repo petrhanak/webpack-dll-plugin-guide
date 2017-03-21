@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "react": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "build:client": "webpack --config webpack/client.config.js",
+    "build:vendor": "webpack --config webpack/vendor.config.js"
+  }
+}
