@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const vendors = require('./vendors.json');
 
 module.exports = {
+  devtool: 'source-map',
   // vendors is array of libraries used
   entry:  {
     vendors: vendors

@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const vendorManifest = require('../.build/vendor/vendor-manifest.json');
 
 module.exports = {
+  devtool: 'source-map',
   entry: [
     './src'
   ],
